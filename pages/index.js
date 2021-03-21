@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 
 import Link from "next/link";
 export default function Home({ allPostsData, links }) {
-  console.log(links);
+  console.log(allPostsData,links);
   return (
     <Layout home>
       {/* Keep the existing code here */}
